@@ -1,9 +1,13 @@
 package com.example.githubusers.models;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.Objects;
 // final значи класс меняться не будет
 public final class Users {
+    @SerializedName("login")
     private String name;
+    @SerializedName("avatar_url")
     private String avatarUrl;
 
     public Users(String name, String avatarUrl) {
