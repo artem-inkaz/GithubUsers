@@ -11,6 +11,14 @@ public final class Users {
         this.avatarUrl = avatarUrl;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
